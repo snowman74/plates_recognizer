@@ -1,0 +1,7 @@
+path: /content/drive/MyDrive/Диплом/train_data  # dataset root dir
+train: /content/drive/MyDrive/Диплом/train_data/images/train/
+val: /content/drive/MyDrive/Диплом/train_data/images/val/   # val images (relative to 'path') 128 images
+
+# Classes
+nc: 1  # number of classes
+names: ['plate']  # class names /content/drive/MyDrive/Диплом/train_data/

@@ -1,0 +1,9 @@
+path: /content/drive/MyDrive/Диплом/mark_datasets  # dataset root dir
+train: images/train  # train images (relative to 'path') 128 images
+val: images/val  # val images (relative to 'path') 128 images
+test: images/test # test images (optional)
+
+# Classes
+nc: 22  # number of classes
+names: ['A', 'B', 'E', 'K', 'M', 'H', 'O', 'P', 'C', 'T', 'Y', 'X', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9']  # class names
+
