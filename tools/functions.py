@@ -230,8 +230,8 @@ def rotate_image_v2(src, show_line=True):
                         d_lines.append(d)
 
                 index_max_line = d_lines.index(
-                    max(d_lines))  # ищем самую длинную линию из найденных по преобразованию Хафа
-                coord = coord_list[index_max_line]  # и сохраняем её координаты
+                    max(d_lines))  # looking for the longest line
+                coord = coord_list[index_max_line]  # save its coordinates
         except TypeError:
             return [0, 0, 0, 0]
         if show_line:
