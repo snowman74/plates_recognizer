@@ -6,7 +6,7 @@ yolov5 models with fastapi web backend
 
 В качестве системы распознавания использованы 2 модели YOLO v5, (https://github.com/ultralytics/yolov5), обученные на примерно 10 000 фотографиях.
 
-В качестве backend применен FastAPI, также в качестве демонстрации присутствует HTML страница.
+В качестве backend применен FastAPI, также для демонстрации присутствует HTML страница.
 
 Проект обёрнут в Docker образ, который Вы можете найти по адресу: https://hub.docker.com/repository/docker/snowman74/plates_recognizer
 
