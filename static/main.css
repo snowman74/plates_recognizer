@@ -1,0 +1,39 @@
+ .document{
+     background-color: #424349;
+ }
+.input-form{
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: center;
+     width: 100% ;
+     color: whitesmoke;
+     background: #323040;
+     margin-top: 100px;
+     font-size: 1.5em;
+     padding: 150px;
+ }
+ .input-form h1 {
+     padding-bottom: 50px;
+     display: flex;
+     justify-content: center;
+ }
+ .input-form .btn-warning {
+     display: flex;
+     margin-left: auto;
+     align-self: flex-end;
+ }
+ .input-form .result-output {
+     display: flex;
+     flex-flow: column wrap;
+     justify-content: center;
+     justify-items: center;
+ }
+ .input-form h2 {
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: center;
+     justify-items: center;
+     padding-bottom: 15px;
+ }
+
+

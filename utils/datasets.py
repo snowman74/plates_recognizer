@@ -943,7 +943,7 @@ def dataset_stats(path='chars_data.yaml', autodownload=False, verbose=False, pro
             return False, None, path
 
     def hub_ops(f, max_dim=1920):
-        # HUB ops for 1 image 'f': resize and save at reduced quality in /dataset-hub for web/app viewing
+        # HUB ops for 1 image 'f': resize and save at reduced quality in /dataset-hub for web/detect viewing
         f_new = im_dir / Path(f).name  # dataset-hub image filename
         try:  # use PIL
             im = Image.open(f)
